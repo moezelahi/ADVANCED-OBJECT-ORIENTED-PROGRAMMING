@@ -1,0 +1,12 @@
+In this project I implemented 3 classes called cards, die, and domino which simulates these games in code.
+
+CARDS: A class for representing playing cards in a standard 52-card French deck.
+
+DIE: A class to represent 6-sided dice with possibly non-standard numbering of the faces. A die has 6 faces with each face having an integer value.
+A die has a current value that is equal to one of the face values (analogous to the uppermost face on a physical die). Rolling a die sets its current value to one of the face values chosen uniformly randomly.
+
+DOMINO:A class that represents domino tiles. A domino is a rectangular tile with a line dividing its playing face into two sides.
+Each side of the playing face is marked with pips (dots) similar to a standard 6-sided die. The number of pips on each side of the playing face ranges from Domino.MIN_VALUE to Domino.MAX_VALUE (inclusive).
+In simpler terms, each domino tile has two integer values that range from Domino.MIN_VALUE to Domino.MAX_VALUE (inclusive).
+
+***USE ECLIPSE EXECUTABLE TO RUN THE PROGRAM, GITHUB VIEWABLE IS JUST FOR CODE SHOW CASE***
