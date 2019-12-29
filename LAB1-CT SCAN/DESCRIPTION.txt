@@ -1,0 +1,15 @@
+In this project I implemented 2 classes one called hounsfield and the other hounsfield window.
+
+Hounsfield units are the units of measurement used in computed tomography (CT or CAT) scanning.
+The Hounsfield scale is defined by specifying the radiodensity of air as -1000 Hounsfield units and the radiodensity of distilled water as 0 Hounsfield units.
+Adjacent tissues in the human body can be distinguished from one another if their radiodensities differ
+
+CT scanners for medical purposes typically restrict the value of reported Hounsfield units to integers in the range -1024 to 3071 so that a Hounsfield unit can be encoded as a 12-bit value.
+This class uses the values -1024 and 3071 to represent the minimum and maximum, respectively, allowable Hounsfield unit values.
+
+A Hounsfield window is defined by two values: (1) the window level, and (2) the window width. The window level is the Hounsfield unit value that the window is centered on.
+The window width is the range of Hounsfield unit values that the window is focused on.
+
+To test out the functionality of the hounsfield run the CTViewer program to visualize some CT-Scans 
+
+***USE ECLIPSE EXECUTABLE TO RUN THE PROGRAM, GITHUB VIEWABLE IS JUST FOR CODE SHOW CASE***
