@@ -1,0 +1,3 @@
+In this project we implemented Couple of recursive classes to solve some very basic problems using recurssion and recursive helper method.
+
+***USE ECLIPSE EXECUTABLE TO RUN THE PROGRAM, GITHUB VIEWABLE IS JUST FOR CODE SHOW CASE***
