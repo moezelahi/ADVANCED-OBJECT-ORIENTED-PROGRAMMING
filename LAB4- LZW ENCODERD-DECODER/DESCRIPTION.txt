@@ -1,0 +1,19 @@
+In this project we implemented 2 classes called complex and MandelbrotUtil.
+
+LZWDictionary: Dictionary for Lempel-Ziv-Welch algorithm. This is a basic implementation that trades memory for simplicity:
+A map of dictionary entries (strings) to dictionary indices is stored in parallel with a list of dictionary entries
+(i.e., entries are stored in two separate data structures to simplify their recall when encoding and decoding).
+The dictionary is initialized by providing a string, from which a set of unique characters will be extracted and used as initial dictionary entries.
+For example, if the dictionary is initialized with the string "ababa!*bbac*&c", it will be initialized with single character strings: ["a","b","!","*","c","&"], which each have corresponding indices:
+[0, 1, 2, 3, 4, 5]. So for this example, the dictionary would map 'a' to index 0, 'b' to index 1, ..., '*' to index 3, and so on.
+The index associated with each entry in the map relates directly to the position of that entry as it is stored in the list.
+The map provides a quick and easy way to check for the existence of entries in the dictionary, while the list provides an easy way to retrieve an entry via its index value
+
+LZWCompressor:A simple class to implement LZW compression (encoding) and decompression (decoding) of a given input string.
+The LZWCompressor maintains a list of characters representing an input sequence to be encoded/decoded.
+It also maintains a local LZWDictionary, which is initialized with unique characters from the input sequence, and is used to encode/decode the input sequence.
+Class invariant: The LZWDictionary always holds only the initial single character patterns as its entries
+(i.e. it may grow during encode/decode operations, however must be reset to its initial state after an encode/decode operation).
+
+
+***USE ECLIPSE EXECUTABLE TO RUN THE PROGRAM, GITHUB VIEWABLE IS JUST FOR CODE SHOW CASE***
